@@ -5,6 +5,9 @@ Site realizado para o Inovatec na Faculdade Metropolitana de Manaus (FAMETRO) co
 # LINK PARA O SITE
 http://aocs-botcomercial.000webhostapp.com/
 
+# TECNOLOGIAS UTILIZADAS
+PHP, HTML, CSS, JAVASCRIPT, MYSQL, AJAX
+
 # Menu Fixo e Parte Principal do Site 
 ![Screenshot](readme-imgs/Img1.png)
 # Área falando sobre oque é o AOCS e qual seu proposito
