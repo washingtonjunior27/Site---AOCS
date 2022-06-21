@@ -1,0 +1,4 @@
+senha: Inovatecaocs2022$
+nomedb: id18985157_testing	
+usuario: id18985157_usertesting
+localhost

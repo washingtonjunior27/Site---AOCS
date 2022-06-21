@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f0f1f4;
+}
+
+.navbar {
+    background-color: #440e0b;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f1ececc2;
+}
+
+.login,
+.admin {
+    background-color: #54110D;
+    border-radius: 8px;
+}
+
+.login:hover,
+.admin:hover {
+    color: #440E0B !important;
+    background: #F0F1F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media(max-width: 991px) {
+    .navbar ul li a {
+        text-align: center;
+    }
+}
+
+
+/* Main */
+
+#inicio {
+    background-image: url(../img/botimg.png);
+    height: 100vh;
+    background-position: 30% 43%;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#inicio h1 {
+    color: #5AED83;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+#inicio p {
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+#inicio .register-main {
+    color: #F0F1F4;
+    background: #6DB35E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 219px;
+    font-size: 17px;
+    line-height: 23.44px;
+}
+
+#inicio .register-main:hover {
+    color: #440E0B;
+    background: #F0F1F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mask-custom {
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Sobre */
+
+#sobre {
+    background-color: #6DB35E;
+    backdrop-filter: blur(4px);
+}
+
+#sobre h1,
+p,
+#duvidas h1,
+#garantias .card-body i,
+#discussao h1 {
+    color: #F0F1F4;
+}
+
+
+/* Duvidas */
+
+#duvidas {
+    background: url('../img/Rectangle\ 11.png');
+    backdrop-filter: blur(4px);
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
+}
+
+.accordion-button,
+.accordion-body {
+    background-color: #F0F1F4;
+}
+
+#duvidas h1 {
+    line-height: 22.78px;
+    color: #f0f1f4 !important;
+}
+
+
+/* Garantias */
+
+#garantias .card-body i {
+    font-size: 40px;
+}
+
+#garantias .section-header h1,
+#garantias .section-header p,
+#discussao,
+#discussao .blockquote h6,
+#discussao .blockquote-footer,
+.comentarios-font {
+    color: #440E0B
+}
+
+.card {
+    background-color: #440E0B;
+    color: #f0f1f4;
+}
+
+
+/* Comentarios */
+
+.card-comments {
+    background: #F0F1F4;
+    border-radius: 16px;
+}
+
+#discussao {
+    background-color: #6DB35E;
+}
+
+#discussao i {
+    font-size: 60px;
+}
+
+.card-comments-header,
+.card-comments-body {
+    color: #440e0b;
+}
+
+#submit,
+.btn-comments-section {
+    background-color: #440e0b;
+    color: #F0F1F4;
+    font-weight: bold;
+}
+
+#submit:hover,
+.btn-comments-section:hover {
+    color: #440E0B;
+    background: #F0F1F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* WhatsApp Chat */
+
+.fa-whatsapp {
+    color: #fff;
+    background: linear-gradient(#25d366, #25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%, transparent 0);
+    background: -webkit-linear-gradient(#25d366, #25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%, transparent 0);
+    font-size: 50px;
+}
+
+.fa-whatsapp:hover {
+    background: linear-gradient(#77942e, #77942e) 14% 84%/16% 16% no-repeat, radial-gradient(#77942e 60%, transparent 0);
+    background: -webkit-linear-gradient(#77942e, #77942e) 14% 84%/16% 16% no-repeat, radial-gradient(#77942e 60%, transparent 0);
+}
+
+
+/* Animation */
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.disclaimer {
+    display: none;
+}
+
+nav.navbar.fixed-top {
+    max-height: 100%;
+    overflow-y: auto;
+}
