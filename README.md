@@ -6,7 +6,7 @@ Site realizado para o Inovatec na Faculdade Metropolitana de Manaus (FAMETRO) co
 http://aocs-botcomercial.000webhostapp.com/
 
 # Menu Fixo e Parte Principal do Site 
-![Screenshot](readme-imgs/img1.png)
+![Screenshot](readme-imgs/Img1.png)
 # Área falando sobre oque é o AOCS e qual seu proposito
 ![Screenshot](readme-imgs/img2.png)
 # Dúvidas frequentes relacionadas ao AOCS
